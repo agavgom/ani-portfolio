@@ -1,0 +1,51 @@
+:root {
+  --color-fondo: #111;
+  --color-texto: #f9f9f9;
+  --color-acento: #ff7f50;
+  --fuente-principal: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: var(--fuente-principal);
+}
+
+header {
+  background: #000;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--color-acento);
+}
+
+.tagline {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: var(--color-texto);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--color-acento);
+}
