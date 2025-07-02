@@ -128,3 +128,57 @@ nav a:hover {
   font-weight: 500;
 }
 
+.proyectos {
+  padding: 3rem 1rem;
+  background-color: #111;
+  text-align: center;
+}
+
+.proyectos h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-acento);
+}
+
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.proyecto-card {
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 127, 80, 0.1);
+  text-align: left;
+}
+
+.proyecto-card h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.proyecto-card p {
+  color: #ccc;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.proyecto-enlaces a {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-acento);
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.proyecto-enlaces a:hover {
+  background-color: #ffa07a;
+}
