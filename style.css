@@ -84,3 +84,47 @@ nav a:hover {
   color: #ccc;
   line-height: 1.6;
 }
+
+.habilidades {
+  background-color: #141414;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.habilidades h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-acento);
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.categoria {
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(255, 127, 80, 0.15);
+}
+
+.categoria h3 {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.categoria ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categoria li {
+  margin: 0.5rem 0;
+  color: #ccc;
+  font-weight: 500;
+}
+
