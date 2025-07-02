@@ -1,8 +1,50 @@
 :root {
-  --color-fondo: #111;
-  --color-texto: #f9f9f9;
-  --color-acento: #ff7f50;
-  --fuente-principal: 'Segoe UI', sans-serif;
+  --color-fondo: #252422;
+  --color-texto: #fffcf2;
+  --color-acento: #eb5e28;
+  --fuente-principal: 'Syne', sans-serif;
+  --fuente-secundaria: 'DM Sans', sans-serif;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-principal);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+a {
+  color: var(--color-acento);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
 }
 
 body {
