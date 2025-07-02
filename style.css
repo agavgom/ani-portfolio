@@ -182,3 +182,46 @@ nav a:hover {
 .proyecto-enlaces a:hover {
   background-color: #ffa07a;
 }
+
+.contacto {
+  background-color: #1a1a1a;
+  color: var(--color-texto);
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.contacto h2 {
+  color: var(--color-acento);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contacto p {
+  margin-bottom: 2rem;
+  color: #ccc;
+  font-size: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacto-lista {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.contacto-lista li {
+  margin: 0.5rem 0;
+}
+
+.contacto-lista a {
+  color: var(--color-acento);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacto-lista a:hover {
+  text-decoration: underline;
+}
+
